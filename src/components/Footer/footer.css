@@ -1,0 +1,56 @@
+.footer{
+    background: #000000;
+}
+.footer-section{
+    display: flex;
+    flex-direction: row;
+    column-gap: 27rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+.link-footer{
+    display: flex;
+    flex-direction: row;
+    column-gap: 2rem;
+   margin-top: 1rem;
+   margin-bottom: 1rem;
+}
+.linkFooterTwo{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    column-gap: 3rem;
+}
+.footer-links{
+    font-family: 'Open Sans', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+font-feature-settings: 'liga' off;
+color: #FFFFFF;
+}
+.decoration{
+    text-decoration: none;
+}
+.playstore{
+    margin-top: 1rem;
+}
+@media(max-width:768px){
+    .footer-section {
+        display: flex;
+        flex-direction: column;
+        row-gap: 2rem;
+        margin-left: 1rem;
+        margin-right: 5rem;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+      }
+      .linkFooterTwo {
+        display: grid;
+        grid-template-columns: auto auto;
+        column-gap: 4rem;
+        row-gap: 1rem;
+      }
+}

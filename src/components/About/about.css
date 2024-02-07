@@ -1,0 +1,150 @@
+.number{
+ font-family: 'Open Sans', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 45px;
+letter-spacing: -0.025em;
+font-feature-settings: 'liga' off;
+color: #FFFFFF;
+}
+.counter-title{
+ font-family: 'Open Sans', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 60px;
+letter-spacing: -0.025em;
+font-feature-settings: 'liga' off;
+color: #FFFFFF;
+}
+.about-title{
+ font-family: 'Open Sans', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 60px;
+letter-spacing: -0.025em;
+font-feature-settings: 'liga' off;
+color: #FFFFFF;
+}
+.counter-sec{
+    background: #0D1724;
+}
+.counter-section{
+    background: #0D1724;
+    display: flex;
+    flex-direction: row;
+    column-gap: 5rem;
+    padding-top: 4rem;
+padding-bottom: 2rem;
+}
+.counter-text{
+ font-family: 'Open Sans', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+font-feature-settings: 'liga' off;
+color: #FFFFFF;
+margin-top: -2rem;
+}
+.counter{
+    margin-left: 5rem;
+}
+.grid{
+    display: flex;
+    flex-direction: row;
+    column-gap: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+.counter-icon{
+    margin-top: 2rem;
+}
+.about-section{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 0rem;
+    padding-left: 5rem;
+}
+.about{
+    background: #4849C1;
+}
+.phoneTwo{
+    margin-top: 6rem;
+    padding-right: 2rem;
+}
+.appstore{
+    margin-right: 1rem;
+}
+.about-app{
+    margin-top: 3rem;
+}
+.about-numbersTwo {
+  margin-right: 6rem;
+}
+@media(max-width: 768px){
+  .about-numbersTwo {
+    margin-right: 0rem;
+  }
+    .counter {
+        margin-left: 1rem;
+      }
+      .counter-section {
+        flex-direction: column;
+        padding-top: 0rem;
+      }
+      .about-numbers{
+        display: flex;
+        flex-direction: row;
+        column-gap: 2rem;
+        margin-left: 1rem;
+      }
+      .about-numbersTwo{
+        display: flex;
+        flex-direction: row;
+        column-gap: 4rem;
+        margin-left: 1rem;
+      }
+      .number {
+        font-size: 25px;
+    }
+    .grid{
+        column-gap: 1rem;
+    }
+    .counter-title {
+        font-size: 33px;
+      }
+      .counter-text {
+        font-size: 16px;
+    }
+    .about-section {
+        display: grid;
+        grid-template-columns: auto auto;
+        row-gap: 2rem;
+        padding-left: 1rem;
+      }
+      .phoneOne{
+        width:12rem;
+        height: auto;
+        margin-left: -11rem;
+    }
+    .text-section{
+        width: 60%;
+    }
+    .about-title {
+        font-size: 28px;
+        line-height: 37px;
+      }
+      #section-text{
+        margin-top: 2rem;
+      }
+      .about-app {
+        margin-top: 3rem;
+      }
+      .phoneTwo {
+        margin-top: 0rem;
+
+      }
+}
